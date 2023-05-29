@@ -4,6 +4,7 @@ import SmallCard from "./components/SmallCard";
 import { Card, Explore, SectionData } from "./models/home.model";
 import MidiumCard from "./components/MidiumCard";
 import LargeCard from "./components/LargeCard";
+import Footer from "./components/Footer";
 
 async function getData() {
   // const res = await fetch("https://links.papareact.com/pyp");
@@ -69,6 +70,8 @@ export default async function Home() {
           description="Whshlists curated by Airbnb"
           buttonText="Get Inspired"
         />
+
+        <Footer />
       </main>
     </div>
   );
