@@ -3,3 +3,13 @@ export interface Explore {
   location: string;
   distance: string;
 }
+
+export interface Card {
+  img: string;
+  title: string;
+}
+
+export interface SectionData {
+  explores: Explore[];
+  cards: Card[];
+}
