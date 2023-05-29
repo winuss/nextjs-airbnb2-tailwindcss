@@ -3,6 +3,7 @@ import Header from "./components/Header";
 import SmallCard from "./components/SmallCard";
 import { Card, Explore, SectionData } from "./models/home.model";
 import MidiumCard from "./components/MidiumCard";
+import LargeCard from "./components/LargeCard";
 
 async function getData() {
   // const res = await fetch("https://links.papareact.com/pyp");
@@ -50,10 +51,10 @@ export default async function Home() {
               />
             ))}
           </div>
+        </section>
 
-          <section>
-            <h2 className="text-4xl font-semibold py-8">Live Anywhere</h2>
-          </section>
+        <section>
+          <h2 className="text-4xl font-semibold py-8">Live Anywhere</h2>
 
           <div className="flex space-x-3 overflow-scroll scrollbar-hide p-3 -ml-3">
             {cards?.map(({ img, title }) => (
@@ -61,6 +62,13 @@ export default async function Home() {
             ))}
           </div>
         </section>
+
+        <LargeCard
+          img="https://links.papareact.com/4cj"
+          title="the Greatest Outdoors"
+          description="Whshlists curated by Airbnb"
+          buttonText="Get Inspired"
+        />
       </main>
     </div>
   );

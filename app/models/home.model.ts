@@ -9,7 +9,9 @@ export interface Card {
   title: string;
 }
 
-export interface SectionData {
-  explores: Explore[];
-  cards: Card[];
+export interface LCard {
+  img: string;
+  title: string;
+  description: string;
+  buttonText: string;
 }
