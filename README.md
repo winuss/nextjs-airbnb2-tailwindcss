@@ -22,3 +22,9 @@ plugins: [
     require("tailwind-scrollbar-hide")
   ],
 ```
+
+# add date module
+
+npm i --save react-date-range
+
+npm i --save react date-fns

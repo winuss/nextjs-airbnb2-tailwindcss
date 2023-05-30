@@ -1,7 +1,7 @@
 import Banner from "./components/Banner";
 import Header from "./components/Header";
 import SmallCard from "./components/SmallCard";
-import { Card, Explore, SectionData } from "./models/home.model";
+import { Card, Explore } from "./models/home.model";
 import MidiumCard from "./components/MidiumCard";
 import LargeCard from "./components/LargeCard";
 import Footer from "./components/Footer";
