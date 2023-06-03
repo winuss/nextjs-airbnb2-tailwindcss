@@ -15,3 +15,13 @@ export interface LCard {
   description: string;
   buttonText: string;
 }
+
+export interface IFCard {
+  img: string;
+  location: string;
+  title: string;
+  description: string;
+  star: string;
+  price: string;
+  total: string;
+}
